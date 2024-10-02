@@ -1,0 +1,70 @@
+
+
+.case
+{
+    background: white ;
+    height: 350px;
+    width: 650px;
+    margin-top:200px ;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 12px 12px 20px #cbced1,
+    -12px -12px 20px#ffffff;
+    border: solid whitesmoke;
+    
+    
+}
+#space
+{
+    width:650px ;
+}
+input
+{
+    width:640px ;
+    height: 80px;
+    border: solid whitesmoke;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    text-align: right;
+    padding-right: 0.5em;
+    border-radius: 8px;
+    box-shadow: inset 8px 8px 8px #cbced1,
+    inset -8px -8px 8px #ffffff;
+}
+#buttons
+{
+    background: white;
+    height: 260px;
+   
+    box-shadow: 5px 5px 8px #cbced1,
+    -5px -5px 8px #ffffff;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+button {
+   
+    width: 125px; 
+    padding: 10px 20px; 
+    font-size: 16px;
+    background:#fdfdfd;
+    color: #333;
+    border: solid #ddd;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    cursor: pointer;
+    
+}
+
+button:hover
+{
+    background: #cbced1;
+}
+
+
